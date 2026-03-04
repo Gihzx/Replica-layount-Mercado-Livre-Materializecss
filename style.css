@@ -1,0 +1,21 @@
+.row.container{
+    display: flex;
+   margin-left: 5rem;
+    gap: 10px;
+
+}
+
+.row.container .col{
+    min-height: 15rem;min-width: 13rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cardImg{
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 auto;
+}

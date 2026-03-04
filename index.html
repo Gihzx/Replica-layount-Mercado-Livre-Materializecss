@@ -1,13 +1,16 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="materialize/css/materialize.css" />
-  </head>
-  <body>
-    <!-- <div class=" row">
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercado Livre Brasil</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="materialize/css/materialize.css" />
+</head>
+
+<body>
+  <!-- <div class=" row">
       <div class="col s3 p3 yellow accent-4">
         <img src="img/Logotipo_MercadoLivre.png" width="150" height="48" alt="" />
       </div>
@@ -15,50 +18,35 @@
         <input type="text" class="white" placeholder="O que você procura?  ">
       </div>
     </div> -->
-    <nav class="yellow accent-4 ">
-      <div class="nav-wrapper container">
-        <div class="row">
-          <div class="col s3 center-align">
-            <a href="#" class="hide-on-small-only"
-              ><img
-                src="img/Logotipo_MercadoLivre.png" class="responsive-img"
-                width="190"
-                height="50"
-                alt="logo"
-            /></a>
-          </div>
-          <div class="col s6">
-            <input
-              type="text"
-              class="white"
-              placeholder="O que você procura?  "
-            />
-          </div>
-          <div class=" center-align">
-            <a href="#" class="hide-on-small-only"
-              ><img
-                src="img/pill-meliplus@3x.png"
-                width="130"
-                height="45"
-                alt="logo"
-                class="responsive-img"  
-            /></a>
-          </div>
+  <nav class="yellow accent-4 ">
+    <div class="nav-wrapper container">
+      <div class="row">
+        <div class="col s3 center-align">
+          <a href="#" class="hide-on-small-only"><img src="img/Logotipo_MercadoLivre.png" class="responsive-img"
+              width="190" height="50" alt="logo" /></a>
         </div>
-    </nav>
-    <div class="nav-Wrapper yellow accent-4 "> 
-        <div class="col s12">
-            <ul class="tabs tabs-transparent ">
-              <li class="tab"><a class="active" href="#test1">Jaboatão dos Guararapes</a></li>
-              <li class="tab"><a href="#test2">Categoria</a></li>
-              <li class="tab"><a href="#test3">Ofertas</a></li>
-              <li class="tab"><a href="#test4">Cupons</a></li>
-              <li class="tab"><a href="#test5">Supermercado</a></li>
-            </ul>
+        <div class="col s6">
+          <input type="text" class="white" placeholder="O que você procura?  " />
         </div>
+        <div class=" center-align">
+          <a href="#" class="hide-on-small-only"><img src="img/pill-meliplus@3x.png" width="130" height="45" alt="logo"
+              class="responsive-img" /></a>
+        </div>
+      </div>
+  </nav>
+  <div class="nav-Wrapper yellow accent-4 ">
+    <div class="col s12">
+      <ul class="tabs tabs-transparent ">
+        <li class="tab"><a class="active" href="#test1">Jaboatão dos Guararapes</a></li>
+        <li class="tab"><a href="#test2">Categoria</a></li>
+        <li class="tab"><a href="#test3">Ofertas</a></li>
+        <li class="tab"><a href="#test4">Cupons</a></li>
+        <li class="tab"><a href="#test5">Supermercado</a></li>
+      </ul>
     </div>
-   <div class="carousel carousel-slider center yellow accent-4">
-    
+  </div>
+  <div class="carousel carousel-slider center yellow accent-4">
+
     <div class="carousel-item red white-text" href="#one!">
       <img src="img/banner1.webp" class="responsive-img">
     </div>
@@ -69,21 +57,17 @@
       <img src="img/banner1.webp" class="responsive-img">
     </div>
     <div class="carousel-item blue white-text" href="#four!">
-   <img src="img/banner1.webp" class="responsive-img">
+      <img src="img/banner1.webp" class="responsive-img">
     </div>
   </div>
-  
-          
 
-        
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="materialize/js/materialize.js"></script>
-    <script>   var instance = M.Carousel.init({
-    fullWidth: true,
-    indicators: true
-  });
-
-  // Or with jQuery
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="materialize/js/materialize.js"></script>
+  <script>   var instance = M.Carousel.init({
+      fullWidth: true,
+      indicators: true,
+      
+    });
 
   $('.carousel.carousel-slider').carousel({
     fullWidth: true,
