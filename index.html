@@ -72,6 +72,23 @@
    <img src="img/banner1.webp" class="responsive-img">
     </div>
   </div>
+  
+<a class="waves-effect waves-light btn">button</a>
+  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+          
+
         
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="materialize/js/materialize.js"></script>
@@ -86,5 +103,20 @@
     fullWidth: true,
     indicators: true
   });</script>
+
+  <script>
+    
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+          
+  </script>
   </body>
 </html>
