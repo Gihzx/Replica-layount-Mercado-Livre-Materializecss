@@ -1,0 +1,32 @@
+.bg-body{
+    background-color: #eceff1;
+}
+
+.row.container{
+    display: flex;
+    gap:2rem;
+}
+
+.row.container .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px;
+    min-width: 16%;
+    min-height: 16%;
+    border-radius: 10px;
+}
+
+.row.container .col img{
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 auto;
+}
+
+.txt-btn{
+    color: #1e88e5;
+}
+
+/* .waves-effect{
+    border-radius: 500px;
+} */

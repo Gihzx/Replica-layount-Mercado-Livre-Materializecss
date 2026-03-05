@@ -1,13 +1,19 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="materialize/css/materialize.css" />
-  </head>
-  <body>
-    <!-- <div class=" row">
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercado Livre Brasil</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="materialize/css/materialize.css" />
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="materialize/js/materialize.js"></script>
+
+</head>
+
+<body class="bg-body">
+  <!-- <div class=" row">
       <div class="col s3 p3 yellow accent-4">
         <img src="img/Logotipo_MercadoLivre.png" width="150" height="48" alt="" />
       </div>
@@ -15,63 +21,91 @@
         <input type="text" class="white" placeholder="O que você procura?  ">
       </div>
     </div> -->
-    <nav class="yellow accent-4 ">
-      <div class="nav-wrapper container">
-        <div class="row">
-          <div class="col s3 center-align">
-            <a href="#" class="hide-on-small-only"
-              ><img
-                src="img/Logotipo_MercadoLivre.png" class="responsive-img"
-                width="190"
-                height="50"
-                alt="logo"
-            /></a>
-          </div>
-          <div class="col s6">
-            <input
-              type="text"
-              class="white"
-              placeholder="O que você procura?  "
-            />
-          </div>
-          <div class=" center-align">
-            <a href="#" class="hide-on-small-only"
-              ><img
-                src="img/pill-meliplus@3x.png"
-                width="130"
-                height="45"
-                alt="logo"
-                class="responsive-img"  
-            /></a>
-          </div>
+  <nav class="yellow accent-4 ">
+    <div class="nav-wrapper container">
+      <div class="row">
+        <div class="col s3 center-align">
+          <a href="#" class="hide-on-small-only"><img src="img/Logotipo_MercadoLivre.png" class="responsive-img"
+              width="190" height="50" alt="logo" /></a>
         </div>
-    </nav>
-    <div class="nav-Wrapper yellow accent-4 black-text" > 
-        <div class="col s12">
-            <ul class="tabs tabs-transparent " >
-              <li class="tab"><a class="active black-text"  href="#test1">Jaboatão dos Guararapes</a></li>
-              <li class="tab"><a class="active black-text" href="#test2 black-text">Categoria</a></li>
-              <li class="tab"><a class="active black-text" href="#test3 black-text">Ofertas</a></li>
-              <li class="tab"><a class="active black-text" href="#test4 black-text">Cupons</a></li>
-              <li class="tab"><a class="active black-text" href="#test5 black-text">Supermercado</a></li>
-            </ul>
+        <div class="col s6">
+          <input type="text" class="white" placeholder="O que você procura?  " />
         </div>
+        <div class=" center-align">
+          <a href="#" class="hide-on-small-only"><img src="img/pill-meliplus@3x.png" width="130" height="45" alt="logo"
+              class="responsive-img" /></a>
+        </div>
+      </div>
+  </nav>
+  <div>
+    <div class="nav-Wrapper yellow accent-4 ">
+      <div class="col s12">
+        <ul class="tabs tabs-transparent ">
+          <li class="tab"><a class="active black-text" href="#test1">Jaboatão dos Guararapes</a></li>
+          <li class="tab"><a class="black-text" href="#test2">Categoria</a></li>
+          <li class="tab"><a class="black-text" href="#test3">Ofertas</a></li>
+          <li class="tab"><a class="black-text" href="#test4">Cupons</a></li>
+          <li class="tab"><a class="black-text" href="#test5">Supermercado</a></li>
+        </ul>
+      </div>
     </div>
-   <div class="carousel carousel-slider center yellow accent-4">
-    
-    <div class="carousel-item red white-text" href="#one!">
-      <img src="img/banner1.webp" class="responsive-img">
+    <div class="carousel carousel-slider center yellow accent-4">
+
+      <div class="carousel-item red white-text" href="#one!">
+        <img src="img/banner1.webp" class="responsive-img">
+      </div>
+      <div class="carousel-item amber white-text" href="#two!">
+        <img src="img/banner1.webp" class="responsive-img">
+      </div>
+      <div class="carousel-item green white-text" href="#three!">
+        <img src="img/banner1.webp" class="responsive-img">
+      </div>
+      <div class="carousel-item blue white-text" href="#four!">
+        <img src="img/banner1.webp" class="responsive-img">
+      </div>
     </div>
-    <div class="carousel-item amber white-text" href="#two!">
-      <img src="img/banner1.webp" class="responsive-img">
+
+
+
+    <div class="row container">
+      <div class="col l2 white center-align">
+        <p>Frete grátis</p>
+        <img class="responsive-img " src="icons/new-buyer.svg">
+        <small>Benefício por ser sua primeira compra.</small>
+        <a class="waves-effect waves-light btn-small blue lighten-4"><small class="txt-btn">Mostrar produtos</small></a>
+      </div>
+      <div class="col l2 white center-align">
+        <p>Entre na sua conta</p>
+        <img class="responsive-img " src="icons/registration-da.svg">
+        <small>Aproveite ofertas para comprar tudo o que quiser.</small>
+        <a class="waves-effect waves-light btn-small blue lighten-4"><small class="txt-btn">Entrar na sua conta</small></a>
+      </div>
+      <div class="col l2 white center-align">
+        <p>Meios de pagamentos</p>
+        <img class="responsive-img " src="icons/payment-methods.svg">
+        <small>Pague suas compras com rapidez e segurança.</small>
+        <a class="waves-effect waves-light btn-small blue lighten-4"><small class="txt-btn">Mostrar meios</small></a>
+      </div>
+      <div class="col l2 white center-align">
+        <p>Menos de R$100</p>
+        <img class="responsive-img " src="icons/mlb-low-price-product.svg">
+        <small>Confira produtos com preços baixos.</small>
+        <a class="waves-effect waves-light btn-small blue lighten-4"><small class="txt-btn">Mostrar produtos</small></a>
+      </div>
+      <div class="col l2 white center-align">
+        <p>Mais vendidos</p>
+        <img class="responsive-img " src="icons/top-sale.svg">
+        <small>Explore os produtos que são tendência.</small>
+        <a class="waves-effect waves-light btn-small blue lighten-4"><small class="txt-btn">Ir para mais vendidos</small></a>
+      </div>
+      <div class="col l2 white center-align">
+        <p>Compra garantida</p>
+        <img class="responsive-img " src="icons/buy-protected.svg">
+        <small>Você pode devolver sua compras grátis.</small>
+        <a class="waves-effect waves-light btn-small blue lighten-4"><small class="txt-btn">Como funciona</small></a>
+      </div>
     </div>
-    <div class="carousel-item green white-text" href="#three!">
-      <img src="img/banner1.webp" class="responsive-img">
-    </div>
-    <div class="carousel-item blue white-text" href="#four!">
-   <img src="img/banner1.webp" class="responsive-img">
-    </div>
-  </div>
+
 <div class="row">
   <div class=" col s12 m2 ">
     <div class="card grey lighten-4">
@@ -248,16 +282,14 @@ comparador de celulares</p>
         
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="materialize/js/materialize.js"></script>
-    <script>   var instance = M.Carousel.init({
-    fullWidth: true,
-    indicators: true
-  });
 
-  // Or with jQuery
+    <script>
 
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-  });</script>
-  </body>
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+      });
+    </script>
+</body>
+
 </html>
